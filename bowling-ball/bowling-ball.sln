@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingBall", "BowlingBall\BowlingBall.csproj", "{BD831A31-6C11-426D-96E6-8496D5D36EA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingBall.Tests", "BowlingBall.Tests\BowlingBall.Tests.csproj", "{5C10F405-9F05-48D1-8F3E-0B0D8C53D20C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGame.DataLayer", "BowlingGame.DataLayer\BowlingGame.DataLayer.csproj", "{B095724E-FF83-4429-ACCE-1A326A005B2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGame.modelLayer", "BowlingGame.modelLayer\BowlingGame.modelLayer.csproj", "{36B9E538-2AE8-4063-8B8E-CE4E1862C0A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGame.ServiceLayer", "BowlingGame.ServiceLayer\BowlingGame.ServiceLayer.csproj", "{BCF573F5-0087-4F13-BB04-BD63A0770885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGame.ServiceLayer.UnitTest", "BowlingGame.ServiceLayer.UnitTest\BowlingGame.ServiceLayer.UnitTest.csproj", "{F6115908-065C-4914-A063-5545A44B6A87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{5C10F405-9F05-48D1-8F3E-0B0D8C53D20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C10F405-9F05-48D1-8F3E-0B0D8C53D20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C10F405-9F05-48D1-8F3E-0B0D8C53D20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B095724E-FF83-4429-ACCE-1A326A005B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B095724E-FF83-4429-ACCE-1A326A005B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B095724E-FF83-4429-ACCE-1A326A005B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B095724E-FF83-4429-ACCE-1A326A005B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B9E538-2AE8-4063-8B8E-CE4E1862C0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B9E538-2AE8-4063-8B8E-CE4E1862C0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B9E538-2AE8-4063-8B8E-CE4E1862C0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B9E538-2AE8-4063-8B8E-CE4E1862C0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF573F5-0087-4F13-BB04-BD63A0770885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF573F5-0087-4F13-BB04-BD63A0770885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF573F5-0087-4F13-BB04-BD63A0770885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF573F5-0087-4F13-BB04-BD63A0770885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6115908-065C-4914-A063-5545A44B6A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6115908-065C-4914-A063-5545A44B6A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6115908-065C-4914-A063-5545A44B6A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6115908-065C-4914-A063-5545A44B6A87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
